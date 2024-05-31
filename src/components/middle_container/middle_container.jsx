@@ -1,11 +1,21 @@
-  .middle-layer {
-    position: absolute;
-    transform: translate(-50%, 0);
-    left: 50%;
-    width: 10vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-  }
+import "./middle_container.css";
+import Button from "../button/button.jsx";
+import Dice from "../dice/dice.jsx";
+
+const images = [
+  "../../assets/images/dice-1.png",
+  "../../assets/images/dice-2.png",
+];
+
+const Middle_container = () => {
+  return (
+    <div className="middle-layer">
+      <Button text="New Game" />
+      <Dice images={images} />
+      <Dice images={images} />
+      <Button text="Roll Dice" />
+      <Button text="Hold" />
+    </div>
+  );
+};
+export default Middle_container;

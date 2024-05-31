@@ -1,0 +1,11 @@
+.player {
+  height: 100vh;
+  width: 30vw;
+  background-color: rgb(226, 120, 120);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 10px solid black;
+  border-radius: 15px;
+}
