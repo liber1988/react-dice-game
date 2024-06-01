@@ -2,3 +2,21 @@
   width: 150px;
   height: 150px;
 }
+.container {
+  width: 100px;
+  margin-top: 10px;
+}
+#slider {
+  width: 100%;
+  overflow: hidden;
+}
+
+#slider img {
+  border-radius: 5px;
+  width: 100%;
+  display: none;
+}
+
+#slider img.active {
+  display: block;
+}

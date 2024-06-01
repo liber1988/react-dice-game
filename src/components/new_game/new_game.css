@@ -1,0 +1,32 @@
+.input-container {
+  background-color: #d6960c;
+  padding: 50px;
+  border-radius: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.9;
+  border: 10px solid black;
+  z-index: 150;
+}
+
+.input-container.hidden {
+  display: none;
+}
+.input-container h2 {
+  padding-top: 50px;
+}
+.input-container h1 {
+  padding-bottom: 50px;
+}
+.dice-image {
+  width: 150px;
+  height: 150px;
+}
+#number-input {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
